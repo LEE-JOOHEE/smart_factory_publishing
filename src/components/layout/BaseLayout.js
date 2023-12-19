@@ -180,6 +180,7 @@ const BaseLayout = ({ children }) => {
                 onClick={onClick}
                 selectedKeys={[current]}
                 style={{ height: '100%', marginBottom: '60px', color: '#fff' }}
+                className='main-menu-style'
               />
               <Button
                 type="primary"
