@@ -1,0 +1,1229 @@
+{
+  "result": [
+    {
+      "key": "/biz/agrem/agremChgDtlAply",
+
+      "label": "예제(협약변경상세(신청))"
+    },
+    {
+      "key": "/cm/tr/cmAplyAsmtWhol",
+
+      "label": "공통_사전_과제정보"
+    },
+    {
+      "key": "/sample",
+
+      "label": "샘플 페이지"
+    },
+    {
+      "key": "/mg/bm",
+      "label": "사업관리",
+      "children": [
+        {
+          "key": "/mg/bm/bm",
+          "label": "사업관리",
+          "parent": "/mg/bm",
+          "children": [
+            {
+              "key": "/mg/bm/bm/bm/bsnsSeManage",
+              "label": "사업구분관리",
+              "parent": "/mg/bm/bm"
+            },
+            {
+              "key": "/mg/bm/bm/bc/bsnsBudgetManage",
+              "label": "사업별특성관리",
+              "parent": "/mg/bm/bm"
+            }
+          ]
+        },
+        {
+          "key": "/mg/bm/pm",
+          "label": "공고관리",
+          "parent": "/mg/bm",
+          "children": [
+            {
+              "key": "/mg/bm/pm/pa/pblancManage",
+              "label": "공고관리",
+              "parent": "/mg/bm/pm"
+            },
+            {
+              "key": "/mg/bm/pm/pc/pblancChartrManage",
+              "label": "공고별특성관리",
+              "parent": "/mg/bm/pm/pc"
+            }
+          ]
+        },
+        {
+          "key": "/mg/bm/mm",
+          "label": "매칭관리",
+          "parent": "/mg/bm",
+          "children": [
+            {
+              "key": "/mg/bm/mm/se/suplyEntrprsInqire",
+              "label": "공급기업조회",
+              "parent": "/mg/bm/mm/se"
+            },
+            {
+              "key": "/mg/bm/mm/sm/suplyEntrprsMtchg",
+              "label": "공급기업매칭현황",
+              "parent": "/mg/bm/mm/sm"
+            },
+            {
+              "key": "/mg/bm/mm/ss/suplyMtchgStats",
+              "label": "공급기업매칭통계",
+              "parent": "/mg/bm/mm/ss"
+            }
+          ]
+        },
+        {
+          "key": "/mg/bm/im",
+          "label": "기관모집관리",
+          "parent": "/mg/bm",
+          "children": [
+            {
+              "key": "/mg/bm/im/ir/insttRcritManage",
+              "label": "기관모집공고관리",
+              "parent": "/mg/bm/im/ir"
+            },
+            {
+              "key": "/mg/bm/im/ip/insttRcritProgrs",
+              "label": "기관모집공고진행현황",
+              "parent": "/mg/bm/im/ip"
+            },
+            {
+              "key": "/mg/bm/im/ie/insttRcritExmnt",
+              "label": "기관모집요건검토",
+              "parent": "/mg/bm/im/ie"
+            },
+            {
+              "key": "/mg/bm/im/se/insttSlctnEvl",
+              "label": "기관선정평가위원회",
+              "parent": "/mg/bm/im/se"
+            },
+            {
+              "key": "/mg/bm/im/sr/insttResultRegist",
+              "label": "기관선정평가결과등록",
+              "parent": "/mg/bm/im/sr"
+            }
+          ]
+        },
+        {
+          "key": "/mg/bm/ia",
+          "label": "기관협약",
+          "parent": "/mg/bm",
+          "children": [
+            {
+              "key": "/mg/bm/ia/ia/insttAgremExmnt",
+              "label": "기관협약제출검토",
+              "parent": "/mg/bm/ia/ia"
+            },
+            {
+              "key": "/mg/bm/ia/ic/insttAgremCncls",
+              "label": "기관협약체결",
+              "parent": "/mg/bm/ia/ic"
+            }
+          ]
+        },
+        {
+          "key": "/mg/bm/di",
+          "label": "문서발급대장관리",
+          "parent": "/mg/bm",
+          "children": [
+            {
+              "key": "/mg/bm/di/di/docIssuSttus",
+              "label": "문서발급현황",
+              "parent": "/mg/bm/di/di"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "/mg/tr",
+      "label": "과제신청",
+      "children": [
+        {
+          "key": "/mg/tr/tr",
+          "label": "과제접수",
+          "parent": "/mg/tr",
+          "children": [
+            {
+              "key": "/mg/tr/tr/tr",
+              "label": "과제접수현황",
+              "parent": "/mg/tr/tr",
+              "children": [
+                {
+                  "key": "/mg/tr/tr/tr/taskRceptSttus",
+                  "label": "과제접수현황",
+                  "parent": "/mg/tr/tr/tr"
+                },
+                {
+                  "key": "/mg/tr/tr/tr/excBsnsDetail",
+                  "label": "수행사업상세",
+                  "parent": "/mg/tr/tr/tr"
+                }
+              ]
+            },
+            {
+              "key": "/mg/tr/tr/bm",
+              "label": "사업관리대장 조회",
+              "parent": "/mg/tr/tr",
+              "children": [
+                {
+                  "key": "/mg/tr/tr/bm/bsnsManageInqire",
+                  "label": "사업관리대장조회",
+                  "parent": "/mg/tr/tr/bm"
+                }
+              ]
+            },
+            {
+              "key": "/mg/tr/tr/pr",
+              "label": "제안요청서 조회",
+              "parent": "/mg/tr/tr",
+              "children": [
+                {
+                  "key": "/mg/tr/tr/pr/propseRequstInqire",
+                  "label": "제안요청서조회",
+                  "parent": "/mg/tr/tr/pr"
+                },
+                {
+                  "key": "/mg/tr/tr/pr/propseRequstDetail",
+                  "label": "제안요청서조회상세",
+                  "parent": "/mg/tr/tr/pr"
+                }
+              ]
+            },
+            {
+              "key": "/mg/tr/tr/pi",
+              "label": "제안서 조회",
+              "parent": "/mg/tr/tr",
+              "children": [
+                {
+                  "key": "/mg/tr/tr/pi/propseInqire",
+                  "label": "제안서조회",
+                  "parent": "/mg/tr/tr/pi"
+                }
+              ]
+            },
+            {
+              "key": "/mg/tr/tr/bt",
+              "label": "사업별과제진행현황",
+              "parent": "/mg/tr/tr",
+              "children": [
+                {
+                  "key": "/mg/tr/tr/bt/bsnsTaskSttus",
+                  "label": "사업별과제진행현황",
+                  "parent": "/mg/tr/tr/bt"
+                }
+              ]
+            },
+            {
+              "key": "/mg/tr/tr/tp",
+              "label": "과제진행현황",
+              "parent": "/mg/tr/tr",
+              "children": [
+                {
+                  "key": "/mg/tr/tr/tp/taskProgrsSttus",
+                  "label": "과제진행현황",
+                  "parent": "/mg/tr/tr/tp"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "/mg/tr/re",
+          "label": "요건검토",
+          "parent": "/mg/tr",
+          "children": [
+            {
+              "key": "/mg/tr/re/re",
+              "label": "요건검토",
+              "parent": "/mg/tr/re",
+              "children": [
+                {
+                  "key": "/mg/tr/re/re/rqisitExmnt",
+                  "label": "요건검토",
+                  "parent": "/mg/tr/re/re"
+                },
+                {
+                  "key": "/mg/tr/re/re/excBsnsDetail",
+                  "label": "수행사업상세",
+                  "parent": "/mg/tr/re/re"
+                }
+              ]
+            },
+            {
+              "key": "/mg/tr/re/ie",
+              "label": "도입기업 지원현황",
+              "parent": "/mg/tr/re",
+              "children": [
+                {
+                  "key": "/mg/tr/re/ie/indcSportSttus",
+                  "label": "도입기업지원현황",
+                  "parent": "/mg/tr/re/ie"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "/mg/tr/se",
+          "label": "현장평가",
+          "parent": "/mg/tr",
+          "children": [
+            {
+              "key": "/mg/tr/se/se",
+              "label": "현장평가계획수립",
+              "parent": "/mg/tr/se",
+              "children": [
+                {
+                  "key": "/mg/tr/se/se/sptEvlPlan",
+                  "label": "현장평가계획수립",
+                  "parent": "/mg/tr/se/se"
+                }
+              ]
+            },
+            {
+              "key": "/mg/tr/se/sr",
+              "label": "현장평가결과등록",
+              "parent": "/mg/tr/se",
+              "children": [
+                {
+                  "key": "/mg/tr/se/sr/sptEvlRegist",
+                  "label": "현장평가결과등록",
+                  "parent": "/mg/tr/se/sr"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "/mg/tr/te",
+          "label": "기술성평가",
+          "parent": "/mg/tr",
+          "children": [
+            {
+              "key": "/mg/tr/te/ec",
+              "label": "평가위원회",
+              "parent": "/mg/tr/te",
+              "children": [
+                {
+                  "key": "/mg/tr/te/ec/techEvlCmit",
+                  "label": "기술성평가 평가위원회",
+                  "parent": "/mg/tr/te/ec"
+                }
+              ]
+            },
+            {
+              "key": "/mg/tr/te/er",
+              "label": "평가결과등록",
+              "parent": "/mg/tr/te",
+              "children": [
+                {
+                  "key": "/mg/tr/te/er/techResultRegist",
+                  "label": "기술성평가 평가결과등록",
+                  "parent": "/mg/tr/te/er"
+                }
+              ]
+            },
+            {
+              "key": "/mg/tr/te/te",
+              "label": "기술성평가 결과등록",
+              "parent": "/mg/tr/te",
+              "children": [
+                {
+                  "key": "/mg/tr/te/te/techResultNtce",
+                  "label": "기술성평가 평가결과등록 (게시)",
+                  "parent": "/mg/tr/te/te"
+                },
+                {
+                  "key": "/mg/tr/te/te/techResultDetail",
+                  "label": "기술성평가 평가결과등록 (게시) 상세",
+                  "parent": "/mg/tr/te/te"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "/mg/tr/sc",
+          "label": "현장확인",
+          "parent": "/mg/tr",
+          "children": [
+            {
+              "key": "/mg/tr/sc/sc/sptCnfirmFoundng",
+              "label": "현장확인계획수립",
+              "parent": "/mg/tr/sc"
+            },
+            {
+              "key": "/mg/tr/sc/sr/sptResultRegist",
+              "label": "현장확인결과등록",
+              "parent": "/mg/tr/sc"
+            },
+            {
+              "key": "/mg/tr/sc/dc/dlbrtMtrRegist",
+              "label": "심의위원회안건등록",
+              "parent": "/mg/tr/sc"
+            },
+            {
+              "key": "/mg/tr/sc/dr/dlbrtResultRegist",
+              "label": "심의위원회결과등록",
+              "parent": "/mg/tr/sc"
+            }
+          ]
+        },
+        {
+          "key": "/mg/tr/cc",
+          "label": "원가계산",
+          "parent": "/mg/tr",
+          "children": [
+            {
+              "key": "/mg/tr/cc/pc/prmpcInsttAppn",
+              "label": "원계계산기관 지정",
+              "parent": "/mg/tr/cc"
+            },
+            {
+              "key": "/mg/tr/cc/pe/prmpcCalcExmnt",
+              "label": "원가계산 검토",
+              "parent": "/mg/tr/cc"
+            },
+            {
+              "key": "/mg/tr/cc/ps/prmpcSprvisnExmnt",
+              "label": "원가감리 검토",
+              "parent": "/mg/tr/cc"
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "key": "/mg/am",
+      "label": "협약관리",
+      "children": [
+        {
+          "key": "/mg/am/ci",
+          "label": "수준확인관리",
+          "parent": "/mg/am",
+          "children": [
+            {
+              "key": "/mg/am/ci/ci/cnfirmInsttList",
+              "label": "확인기관배정목록",
+              "parent": "/mg/am/ci/ci"
+            }
+          ]
+        },
+        {
+          "key": "/mg/am/am",
+          "label": "협약관리",
+          "parent": "/mg/am",
+          "children": [
+            {
+              "key": "/mg/am/am/ap",
+              "label": "협약 계획",
+              "parent": "/mg/am/am",
+              "children": [
+                {
+                  "key": "/mg/am/am/ap/agremPlanList",
+                  "label": "협약계획 목록",
+                  "parent": "/mg/am/am/ap"
+                },
+                {
+                  "key": "/mg/am/am/ap/agremEstbsPopup",
+                  "label": "협약계획설정 팝업",
+                  "parent": "/mg/am/am/ap"
+                }
+              ]
+            },
+            {
+              "key": "/mg/am/am/ac",
+              "label": "협약 체결",
+              "parent": "/mg/am/am",
+              "children": [
+                {
+                  "key": "/mg/am/am/ac/agremCnclsList",
+                  "label": "협약체결 목록",
+                  "parent": "/mg/am/am/ac"
+                },
+                {
+                  "key": "/mg/am/am/ac/agremCnclsDetail",
+                  "label": "협약체결 상세",
+                  "parent": "/mg/am/am/ac"
+                }
+              ]
+            },
+            {
+              "key": "/mg/am/am/am",
+              "label": "협약 변경(관리자)",
+              "parent": "/mg/am/am",
+              "children": [
+                {
+                  "key": "/mg/am/am/am/agremChangeList",
+                  "label": "협약변경(관리자)목록",
+                  "parent": "/mg/am/am/am"
+                },
+                {
+                  "key": "/mg/am/am/am/agremChangeRcept",
+                  "label": "협약변경 상세(접수처리)",
+                  "parent": "/mg/am/am/am"
+                },
+                {
+                  "key": "/mg/am/am/am/agremChangeConfm",
+                  "label": "협약변경 상세(승인처리)",
+                  "parent": "/mg/am/am/am"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "/mg/am/wr",
+          "label": "사업비관리",
+          "parent": "/mg/am",
+          "children": [
+            {
+              "key": "/mg/am/wr/rp",
+              "label": "보고서제출현황(착수보고)",
+              "parent": "/mg/am/wr",
+              "children": [
+                {
+                  "key": "/mg/am/wr/rp/reprtPresentnList",
+                  "label": "보고서제출현황(착수보고)목록",
+                  "parent": "/mg/am/wr/rp"
+                },
+                {
+                  "key": "/mg/am/wr/rp/reprtPresentnDetail",
+                  "label": "보고서제출현황(착수보고)상세",
+                  "parent": "/mg/am/wr/rp"
+                }
+              ]
+            },
+            {
+              "key": "/mg/am/wr/rr",
+              "label": "보고서접수(착수보고서검토)",
+              "parent": "/mg/am/wr",
+              "children": [
+                {
+                  "key": "/mg/am/wr/rr/reprtRceptList",
+                  "label": "보고서접수(착수보고서검토) 목록",
+                  "parent": "/mg/am/wr/rr"
+                },
+                {
+                  "key": "/mg/am/wr/rr/reprtRceptDetail",
+                  "label": "보고서접수(착수보고서검토) 상세",
+                  "parent": "/mg/am/wr/rr"
+                }
+              ]
+            },
+            {
+              "key": "/mg/am/wr/wr",
+              "label": "사업비신청 관리",
+              "parent": "/mg/am/wr",
+              "children": [
+                {
+                  "key": "/mg/am/wr/wr/wctReqstList",
+                  "label": "사업비신청관리 목록",
+                  "parent": "/mg/am/wr/wr"
+                },
+                {
+                  "key": "/mg/am/wr/wr/wctReqstDetail",
+                  "label": "사업비신청관리 상세",
+                  "parent": "/mg/am/wr/wr"
+                }
+              ]
+            },
+            {
+              "key": "/mg/am/wr/wc",
+              "label": "사업비 지급내역",
+              "parent": "/mg/am/wr",
+              "children": [
+                {
+                  "key": "/mg/am/wr/wc/wctPymntList",
+                  "label": "사업비지급내역 목록",
+                  "parent": "/mg/am/wr/wc"
+                }
+              ]
+            },
+            {
+              "key": "/mg/am/wr/rc",
+              "label": "RCMS제출자료",
+              "parent": "/mg/am/wr",
+              "children": [
+                {
+                  "key": "/mg/am/wr/rc/rcmsDtaList",
+                  "label": "RCMS제출자료 목록",
+                  "parent": "/mg/am/wr/rc"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "/mg/rm",
+      "label": "진도관리",
+      "children": [
+        {
+          "key": "/mg/rm/mc",
+          "label": "중간점검",
+          "parent": "/mg/rm",
+          "children": [
+            {
+              "key": "/mg/rm/mc/rp",
+              "label": "보고서제출현황(중간보고)",
+              "parent": "/mg/rm/mc",
+              "children": [
+                {
+                  "key": "/mg/rm/mc/rp/reprtPresentnList",
+                  "label": "보고서제출현황(중간보고)목록",
+                  "parent": "/mg/rm/mc/rp"
+                }
+              ]
+            },
+            {
+              "key": "/mg/rm/mc/rr",
+              "label": "보고서접수(중간보고서검토)",
+              "parent": "/mg/rm/mc",
+              "children": [
+                {
+                  "key": "/mg/rm/mc/rr/reprtRceptList",
+                  "label": "보고서접수(중간보고서검토)목록",
+                  "parent": "/mg/rm/mc/rr"
+                }
+              ]
+            },
+            {
+              "key": "/mg/rm/mc/mc",
+              "label": "중간점검계획수립",
+              "parent": "/mg/rm/mc",
+              "children": [
+                {
+                  "key": "/mg/rm/mc/mc/middleChckPlan",
+                  "label": "중간점검계획수립",
+                  "parent": "/mg/rm/mc/mc"
+                }
+              ]
+            },
+            {
+              "key": "/mg/rm/mc/mr",
+              "label": "중간점검결과등록",
+              "parent": "/mg/rm/mc",
+              "children": [
+                {
+                  "key": "/mg/rm/mc/mr/middleChckRegist",
+                  "label": "중간점검결과등록",
+                  "parent": "/mg/rm/mc/mr"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "/mg/rm/lc",
+          "label": "최종점검",
+          "parent": "/mg/rm",
+          "children": [
+            {
+              "key": "/mg/rm/lc/rp",
+              "label": "보고서제출현황(완료보고)",
+              "parent": "/mg/rm/lc",
+              "children": [
+                {
+                  "key": "/mg/rm/lc/rp/reprtPresentnList",
+                  "label": "보고서제출현황(중간보고)목록",
+                  "parent": "/mg/rm/lc/rp"
+                }
+              ]
+            },
+            {
+              "key": "/mg/rm/lc/rr",
+              "label": "보고서접수(완료보고서검토)",
+              "parent": "/mg/rm/lc",
+              "children": [
+                {
+                  "key": "/mg/rm/lc/rr/reprtRceptList",
+                  "label": "보고서접수(중간보고서검토)목록",
+                  "parent": "/mg/rm/lc/rr"
+                }
+              ]
+            },
+            {
+              "key": "/mg/rm/lc/lc",
+              "label": "최종점검계획수립",
+              "parent": "/mg/rm/lc",
+              "children": [
+                {
+                  "key": "/mg/rm/lc/lc/lastChckPlan",
+                  "label": "최종점검계획수립",
+                  "parent": "/mg/rm/lc/lc"
+                }
+              ]
+            },
+            {
+              "key": "/mg/rm/lc/lr",
+              "label": "최종점검결과등록",
+              "parent": "/mg/rm/lc",
+              "children": [
+                {
+                  "key": "/mg/rm/lc/lr/lastChckRegist",
+                  "label": "최종점검결과등록",
+                  "parent": "/mg/rm/lc/lr"
+                }
+              ]
+            },
+            {
+              "key": "/mg/rm/lc/sr",
+              "label": "감리결과확인",
+              "parent": "/mg/rm/lc",
+              "children": [
+                {
+                  "key": "/mg/rm/lc/sr/sprvisnResultList",
+                  "label": "감리결과확인 목록",
+                  "parent": "/mg/rm/lc/sr"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "/mg/rm/ac",
+          "label": "수시점검",
+          "parent": "/mg/rm",
+          "children": [
+            {
+              "key": "/mg/rm/ac/ac",
+              "label": "수시점검계획수립",
+              "parent": "/mg/rm/ac",
+              "children": [
+                {
+                  "key": "/mg/rm/ac/ac/anytmChckPlan",
+                  "label": "수시점검계획수립",
+                  "parent": "/mg/rm/ac/ac"
+                }
+              ]
+            },
+            {
+              "key": "/mg/rm/ac/ar",
+              "label": "수시점검결과등록",
+              "parent": "/mg/rm/ac",
+              "children": [
+                {
+                  "key": "/mg/rm/ac/ar/anytmChckRegist",
+                  "label": "수시점검결과등록",
+                  "parent": "/mg/rm/ac/ar"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "/mg/rm/rp",
+          "label": "보고",
+          "parent": "/mg/rm",
+          "children": [
+            {
+              "key": "/mg/rm/rp/rp",
+              "label": "보고계획",
+              "parent": "/mg/rm/rp",
+              "children": [
+                {
+                  "key": "/mg/rm/rp/rp/reportPlanList",
+                  "label": "보고계획목록",
+                  "parent": "/mg/rm/rp/rp"
+                },
+                {
+                  "key": "/mg/rm/rp/rp/reportPlanEstbs",
+                  "label": "보고계획상세(계획설정)",
+                  "parent": "/mg/rm/rp/rp"
+                },
+                {
+                  "key": "/mg/rm/rp/rp/reportPlanInqire",
+                  "label": "보고계획상세(계획조회)",
+                  "parent": "/mg/rm/rp/rp"
+                }
+              ]
+            },
+            {
+              "key": "/mg/rm/rp/re",
+              "label": "보고서검토",
+              "parent": "/mg/rm/rp",
+              "children": [
+                {
+                  "key": "/mg/rm/rp/re/reprtExmntList",
+                  "label": "보고서검토 목록",
+                  "parent": "/mg/rm/rp/re"
+                },
+                {
+                  "key": "/mg/rm/rp/re/reprtExmntOutset",
+                  "label": "보고서검토(착수계)",
+                  "parent": "/mg/rm/rp/re"
+                },
+                {
+                  "key": "/mg/rm/rp/re/reprtExmntMiddle",
+                  "label": "보고서검토(중간보고서)",
+                  "parent": "/mg/rm/rp/re"
+                },
+                {
+                  "key": "/mg/rm/rp/re/reprtExmntCompt",
+                  "label": "보고서검토(완료보고서)",
+                  "parent": "/mg/rm/rp/re"
+                },
+                {
+                  "key": "/mg/rm/rp/re/reprtExmntLast",
+                  "label": "보고서검토(최종완료보고서)",
+                  "parent": "/mg/rm/rp/re"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "/mg/rm/sv",
+          "label": "감리",
+          "parent": "/mg/rm",
+          "children": [
+            {
+              "key": "/mg/rm/sv/si",
+              "label": "감리기관지정",
+              "parent": "/mg/rm/sv",
+              "children": [
+                {
+                  "key": "/mg/rm/sv/si/sprvisnInsttList",
+                  "label": "감리기관지정 목록",
+                  "parent": "/mg/rm/sv/si"
+                }
+              ]
+            },
+            {
+              "key": "/mg/rm/sv/sp",
+              "label": "감리계획",
+              "parent": "/mg/rm/sv",
+              "children": [
+                {
+                  "key": "/mg/rm/sv/sp/sprvisnPlanList",
+                  "label": "감리계획목록",
+                  "parent": "/mg/rm/sv/sp"
+                }
+              ]
+            },
+            {
+              "key": "/mg/rm/sv/sr",
+              "label": "감리결과목록",
+              "parent": "/mg/rm/sv",
+              "children": [
+                {
+                  "key": "/mg/rm/sv/sr/sprvisnResultList",
+                  "label": "감리결과목록",
+                  "parent": "/mg/rm/sv/sr"
+                },
+                {
+                  "key": "/mg/rm/sv/sr/sprvisnResultLast",
+                  "label": "감리결과목록 상세(최종감리결과서)",
+                  "parent": "/mg/rm/sv/sr"
+                },
+                {
+                  "key": "/mg/rm/sv/sr/sprvisnCorecPlan",
+                  "label": "감리결과목록 상세(시정조치계획서)",
+                  "parent": "/mg/rm/sv/sr"
+                },
+                {
+                  "key": "/mg/rm/sv/sr/sprvisnCorecResult",
+                  "label": "감리결과목록 상세(시정조치결과서)",
+                  "parent": "/mg/rm/sv/sr"
+                },
+                {
+                  "key": "/mg/rm/sv/sr/sprvisnCorecCnfrmn",
+                  "label": "감리결과목록 상세(시정조치결과확인서)",
+                  "parent": "/mg/rm/sv/sr"
+                }
+              ]
+            },
+            {
+              "key": "/mg/rm/sv/sc",
+              "label": "감리변경",
+              "parent": "/mg/rm/sv",
+              "children": [
+                {
+                  "key": "/mg/rm/sv/sc/sprvisnChangeList",
+                  "label": "감리변경 목록",
+                  "parent": "/mg/rm/sv/sc"
+                },
+                {
+                  "key": "/mg/rm/sv/sc/sprvisnChangeDetail",
+                  "label": "감리변경 상세",
+                  "parent": "/mg/rm/sv/sc"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "/mg/rm/ed",
+          "label": "수행일지",
+          "parent": "/mg/rm",
+          "children": [
+            {
+              "key": "/mg/rm/ed/ed/excDiaryCnstnt",
+              "label": "수행일지 확인(컨설턴트)",
+              "parent": "/mg/rm/ed"
+            },
+            {
+              "key": "/mg/rm/ed/ca/anytmChckDgnss",
+              "label": "수시점검확인(기업진단 코디)",
+              "parent": "/mg/rm/ed"
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "key": "/mg/em",
+      "label": "평가관리",
+      "children": [
+        {
+          "key": "/mg/em/le",
+          "label": "최종평가(위원회)",
+          "parent": "/mg/em",
+          "children": [
+            {
+              "key": "/mg/em/le/rp",
+              "label": "최종보고서제출현황",
+              "parent": "/mg/em/le",
+              "children": [
+                {
+                  "key": "/mg/em/le/rp/reprtPresentnList",
+                  "label": "보고서제출현황(최종보고)",
+                  "parent": "/mg/em/le/rp"
+                }
+              ]
+            },
+            {
+              "key": "/mg/em/le/rr",
+              "label": "보고서접수(최종보고서검토)",
+              "parent": "/mg/em/le",
+              "children": [
+                {
+                  "key": "/mg/em/le/rr/reprtRceptList",
+                  "label": "보고서접수(최종보고서검토)",
+                  "parent": "/mg/em/le/rr"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "/mg/em/or",
+          "label": "이의신청",
+          "parent": "/mg/em",
+          "children": [
+            {
+              "key": "/mg/em/or/or",
+              "label": "이의신청접수",
+              "parent": "/mg/em/or",
+              "children": [
+                {
+                  "key": "/mg/em/or/or/objcReqstRcept",
+                  "label": "이의신청접수",
+                  "parent": "/mg/em/or/or"
+                }
+              ]
+            },
+            {
+              "key": "/mg/em/or/op",
+              "label": "이의신청처리현황",
+              "parent": "/mg/em/or",
+              "children": [
+                {
+                  "key": "/mg/em/or/op/objcProcessSttus",
+                  "label": "이의신청처리현황",
+                  "parent": "/mg/em/or/op"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "/mg/rs",
+      "label": "성과/통계",
+      "children": [
+        {
+          "key": "/mg/rs/rm",
+          "label": "성과관리",
+          "parent": "/mg/rs",
+          "children": [
+            {
+              "key": "/mg/rs/rm/rm",
+              "label": "성과지표관리",
+              "parent": "/mg/rs/rm",
+              "children": [
+                {
+                  "key": "/mg/rs/rm/rm/rsltIxList",
+                  "label": "성과지표관리",
+                  "parent": "/mg/rs/rm/rm"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "/smg/",
+      "label": "서비스관리",
+      "children": [
+        {
+          "key": "/smg/sm/em/em/evlIxManage",
+          "label": "평가지표관리",
+          "parent": "/smg"
+        }
+      ]
+    },
+    {
+      "key": "/usr",
+
+      "label": "사용자",
+      "children": [
+        {
+          "key": "/usr/my",
+          "label": "마이페이지",
+          "parent": "/usr",
+          "children": [
+            {
+              "key": "/usr/my/em",
+              "label": "평가위원",
+              "parent": "/usr/my",
+              "children": [
+                {
+                  "key": "/usr/my/em/em/evlMfcmmFx",
+                  "label": "평가위원평가일정등록",
+                  "parent": "/usr/my/em"
+                },
+                {
+                  "key": "/usr/my/em/ep/evlPartcptnRegist",
+                  "label": "평가참여여부등록",
+                  "parent": "/usr/my/em"
+                },
+                {
+                  "key": "/usr/my/em/eo/evlOprtn",
+                  "label": "평가실시",
+                  "parent": "/usr/my/em"
+                },
+                {
+                  "key": "/usr/my/em/er/evlResultRegist",
+                  "label": "평가결과등록",
+                  "parent": "/usr/my/em"
+                },
+                {
+                  "key": "/usr/my/em/cr/chckResultRegist",
+                  "label": "점검결과등록",
+                  "parent": "/usr/my/em"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "/usr/bg",
+          "label": "사업안내",
+          "parent": "/usr",
+          "children": [
+            {
+              "key": "/usr/bg/ba/ma/bsnsPblanc",
+              "label": "사업공고",
+              "parent": "/usr/bg"
+            }
+          ]
+        },
+        {
+          "key": "/usr/bm",
+          "label": "사업관리",
+          "parent": "/usr",
+          "children": [
+            {
+              "key": "/usr/bm/tr",
+              "label": "과제신청",
+              "parent": "/usr/bm",
+              "children": [
+                {
+                  "key": "/usr/bm/tr/tr/smsDspth",
+                  "label": "과제신청",
+                  "parent": "/usr/bm/tr"
+                }
+              ]
+            },
+            {
+              "key": "/usr/bm/ie",
+              "label": "도입기업매칭",
+              "parent": "/usr/bm",
+              "children": [
+                {
+                  "key": "/usr/bm/ie/ie/indcEntrprsSearch",
+                  "label": "도입기업 검색",
+                  "parent": "/usr/bm/ie"
+                },
+                {
+                  "key": "/usr/bm/ie/im/indcEntrprsManage",
+                  "label": "도입기업 관리",
+                  "parent": "/usr/bm/ie"
+                },
+                {
+                  "key": "/usr/bm/ie/ir/indcMtchgResult",
+                  "label": "도입기업 매칭결과",
+                  "parent": "/usr/bm/ie"
+                },
+                {
+                  "key": "/usr/bm/ie/br/bsnsActplnRequst",
+                  "label": "사업계획서요청",
+                  "parent": "/usr/bm/ie"
+                },
+                {
+                  "key": "/usr/bm/ie/pm/prpslManage",
+                  "label": "제안서관리",
+                  "parent": "/usr/bm/ie"
+                },
+                {
+                  "key": "/usr/bm/ie/ps/propseSttus",
+                  "label": "제안요청현황",
+                  "parent": "/usr/bm/ie"
+                }
+              ]
+            },
+            {
+              "key": "/usr/bm/sm",
+              "label": "공급기업매칭",
+              "parent": "/usr/bm",
+              "children": [
+                {
+                  "key": "/usr/bm/sm/se/suplyEntrprsSearch",
+                  "label": "공급기업검색",
+                  "parent": "/usr/bm/sm"
+                },
+                {
+                  "key": "/usr/bm/sm/sm/suplyEntrprsManage",
+                  "label": "공급기업관리",
+                  "parent": "/usr/bm/sm"
+                },
+                {
+                  "key": "/usr/bm/sm/sr/suplyEntrprsMtchg",
+                  "label": "공급기업매칭결과",
+                  "parent": "/usr/bm/sm"
+                },
+                {
+                  "key": "/usr/bm/sm/ba/bsnsActplnExmnt",
+                  "label": "사업계획서검토",
+                  "parent": "/usr/bm/sm"
+                }
+              ]
+            },
+            {
+              "key": "/usr/bm/pc",
+              "label": "원가계산",
+              "parent": "/usr/bm",
+              "children": [
+                {
+                  "key": "/usr/bm/pc/pc/prmpcCalcPresentn",
+                  "label": "원가계산제출",
+                  "parent": "/usr/bm/pc"
+                },
+                {
+                  "key": "/usr/bm/pc/pe/prmpcCalcExmnt",
+                  "label": "원가계산검토",
+                  "parent": "/usr/bm/pc"
+                },
+                {
+                  "key": "/usr/bm/pc/ps/prmpcSprvisnPresentn",
+                  "label": "원가감리제출",
+                  "parent": "/usr/bm/pc"
+                },
+                {
+                  "key": "/usr/bm/pc/pr/prmpcSprvisnExmnt",
+                  "label": "원가감리검토",
+                  "parent": "/usr/bm/pc"
+                }
+              ]
+            },
+            {
+              "key": "/usr/bm/ci/ci/cnslInsttAppn",
+              "label": "컨설팅기관지정",
+              "parent": "/usr/bm"
+            },
+            {
+              "key": "/usr/bm/aw",
+              "label": "협약/사업비",
+              "parent": "/usr/bm",
+              "children": [
+                {
+                  "key": "/usr/bm/aw/wr/wctReqst",
+                  "label": "사업비 신청",
+                  "parent": "/usr/bm/aw"
+                },
+                {
+                  "key": "/usr/bm/aw/lc/levelConfirmation",
+                  "label": "수준확인서 발급",
+                  "parent": "/usr/bm/aw"
+                },
+                {
+                  "key": "/usr/bm/aw/al/actualResultConfirmation",
+                  "label": "실적확인서 발급",
+                  "parent": "/usr/bm/aw"
+                },
+                {
+                  "key": "/usr/bm/aw/lp/levelPresentation",
+                  "label": "수준확인결과 제출",
+                  "parent": "/usr/bm/aw"
+                },
+                {
+                  "key": "/usr/bm/aw/ac/agremChangeList",
+                  "label": "협약변경",
+                  "parent": "/usr/bm/aw"
+                }
+              ]
+            },
+            {
+              "key": "/usr/bm/rs",
+              "label": "보고/감리",
+              "parent": "/usr/bm",
+              "children": [
+                {
+                  "key": "/usr/bm/rs/rr/reportPresentation",
+                  "label": "보고서제출(공급기업)",
+                  "parent": "/usr/bm/rs"
+                },
+                {
+                  "key": "/usr/bm/rs/sa/sprvisorAppnList",
+                  "label": "감리원지정",
+                  "parent": "/usr/bm/rs"
+                },
+                {
+                  "key": "/usr/bm/rs/re/reportExamination",
+                  "label": "보고서검토(도입기업,전문가,감리법인)",
+                  "parent": "/usr/bm/rs"
+                },
+                {
+                  "key": "/usr/bm/rs/sr/sprvisnResultList",
+                  "label": "감리결과목록",
+                  "parent": "/usr/bm/rs"
+                }
+              ]
+            },
+            {
+              "key": "/usr/bm/cr/cr/chckResultInqire",
+              "label": "점검결과조회",
+              "parent": "/usr/bm"
+            },
+            {
+              "key": "/usr/bm/or/or/objcReqst",
+              "label": "이의신청",
+              "parent": "/usr/bm"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

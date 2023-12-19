@@ -1,0 +1,83 @@
+import React, { useState } from 'react';
+import { Col, Row, Button, Descriptions, Select, Input, Space } from 'antd';
+import TitleComp from 'components/layout/TitleComp';
+import 'css/CommonUsr.css';
+import { ojtChange } from 'components/common/Common';
+
+const AgremChangeList01 = ({ searchClick, ojtGroupCodes }) => {
+  //검색조건
+  const [ojtSrchCnd, setOjtSrchCnd] = useState({
+    a1: '2022',
+    a2: '전체',
+    a3: '',
+    a4: '',
+  });
+  return (
+    <>
+      <Row className="eu-usr-row-comp-title">
+        <Col span={12}>
+          <TitleComp>검색조건 입력</TitleComp>
+        </Col>
+        <Col span={12} style={{ textAlign: 'right' }}>
+          <Button
+            className="eu-usr-btn-crud-fine"
+            size="small"
+            onClick={() => {
+              searchClick(ojtSrchCnd);
+            }}
+          >
+            조회
+          </Button>
+        </Col>
+      </Row>
+      <Row className="eu-usr-row-comp-cont">
+        <Col span={24}>
+          <Descriptions size="small" bordered>
+            <Descriptions.Item label="사업연도" span={1.5}>
+              <Select
+                placeholder="사업연도 선택"
+                onChange={(value) => ojtChange(value, 'a1', setOjtSrchCnd)}
+                options={[
+                  {
+                    value: '2022',
+                    label: '2022',
+                  },
+                  ...(ojtGroupCodes?.a1 ? ojtGroupCodes.a1 : []),
+                ]}
+                value={ojtSrchCnd?.a1}
+              />
+            </Descriptions.Item>
+            <Descriptions.Item label="사업분류" span={1.5}>
+              <Select
+                placeholder="사업분류 선택"
+                value={ojtSrchCnd?.a2}
+                onChange={(value) => ojtChange(value, 'a2', setOjtSrchCnd)}
+                options={[
+                  {
+                    value: '전체',
+                    label: '전체',
+                  },
+                  ...(ojtGroupCodes?.a2 ? ojtGroupCodes.a2 : []),
+                ]}
+              />
+            </Descriptions.Item>
+            <Descriptions.Item label="과제번호" span={1.5}>
+              <Input
+                value={ojtSrchCnd?.a3}
+                onChange={(e) => ojtChange(e.target.value, 'a3', setOjtSrchCnd)}
+              />
+            </Descriptions.Item>
+            <Descriptions.Item label="과제명" span={1.5}>
+              <Input
+                value={ojtSrchCnd?.a4}
+                onChange={(e) => ojtChange(e.target.value, 'a4', setOjtSrchCnd)}
+              />
+            </Descriptions.Item>
+          </Descriptions>
+        </Col>
+      </Row>
+    </>
+  );
+};
+
+export default AgremChangeList01;

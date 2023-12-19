@@ -1,0 +1,158 @@
+{
+    "result": [
+        {
+            "key": "/mg/tr/tr",
+            "label": "과제접수",
+
+            "children": [
+                {
+                    "key": "/mg/tr/tr/tr",
+                    "label": "과제접수현황",
+                    "parent": "/mg/tr/tr",
+                    "children": [
+                        {
+                            "key": "/mg/tr/tr/tr/tr1",
+                            "label": "과제접수현황 하위메뉴1",
+                            "parent": "/mg/tr/tr/tr"
+                        },
+                        {
+                            "key": "/mg/tr/tr/tr/tr2",
+                            "label": "과제접수현황 하위메뉴2",
+                            "parent": "/mg/tr/tr/tr"
+                        }
+                    ]
+                },
+                {
+                    "key": "/mg/tr/tr/bm",
+                    "label": "사업관리대장 조회",
+                    "parent": "/mg/tr/tr"
+                },
+                {
+                    "key": "/mg/tr/tr/pr",
+                    "label": "제안요청서 조회",
+                    "parent": "/mg/tr/tr"
+                },
+                {
+                    "key": "/mg/tr/tr/pi",
+                    "label": "제안서 조회",
+                    "parent": "/mg/tr/tr"
+                },
+                {
+                    "key": "/mg/tr/tr/bt",
+                    "label": "사업별과제진행현황",
+                    "parent": "/mg/tr/tr"
+                },
+                {
+                    "key": "/mg/tr/tr/tp",
+                    "label": "과제진행현황",
+                    "parent": "/mg/tr/tr"
+                }
+            ]
+        },
+        {
+            "key": "/mg/tr/re",
+            "label": "요건검토",
+            "parent": "/mg/tr",
+            "children": [
+                {
+                    "key": "/mg/tr/re/re",
+                    "label": "요건검토",
+                    "parent": "/mg/tr/re"
+                },
+                {
+                    "key": "/mg/tr/re/ie",
+                    "label": "도입기업 지원현황",
+                    "parent": "/mg/tr/re"
+                }
+            ]
+        },
+        {
+            "key": "/mg/tr/se",
+            "label": "현장평가",
+            "parent": "/mg/tr",
+            "children": [
+                {
+                    "key": "/mg/tr/se/se",
+                    "label": "현장평가계획수립",
+                    "parent": "/mg/tr/se"
+                },
+                {
+                    "key": "/mg/tr/se/sr",
+                    "label": "현장평가결과등록",
+                    "parent": "/mg/tr/se"
+                }
+            ]
+        },
+        {
+            "key": "/mg/tr/te",
+            "label": "기술성평가",
+            "parent": "/mg/tr",
+            "children": [
+                {
+                    "key": "/mg/tr/te/ec",
+                    "label": "평가위원회",
+                    "parent": "/mg/tr/te"
+                },
+                {
+                    "key": "/mg/tr/te/er",
+                    "label": "평가결과등록",
+                    "parent": "/mg/tr/te"
+                },
+                {
+                    "key": "/mg/tr/te/te",
+                    "label": "기술성평가 결과등록",
+                    "parent": "/mg/tr/te"
+                }
+            ]
+        },
+        {
+            "key": "/mg/tr/sc",
+            "label": "현장확인",
+            "parent": "/mg/tr",
+            "children": [
+                {
+                    "key": "/mg/tr/sc/sc/sptCnfirmFoundng",
+                    "label": "현장확인계획수립",
+                    "parent": "/mg/tr/sc"
+                },
+                {
+                    "key": "/mg/tr/sc/sr/sptResultRegist",
+                    "label": "현장확인결과등록",
+                    "parent": "/mg/tr/sc"
+                },
+                {
+                    "key": "/mg/tr/sc/dc/dlbrtMtrRegist",
+                    "label": "심의위원회안건등록",
+                    "parent": "/mg/tr/sc"
+                },
+                {
+                    "key": "/mg/tr/sc/dr/dlbrtResultRegist",
+                    "label": "심의위원회결과등록",
+                    "parent": "/mg/tr/sc"
+                }
+            ]
+        },
+        {
+            "key": "/mg/tr/cc",
+            "label": "원가계산",
+            "parent": "/mg/tr",
+            "children": [
+                {
+                    "key": "/mg/tr/cc/pc/prmpcInsttAppn",
+                    "label": "원계계산기관 지정",
+                    "parent": "/mg/tr/cc"
+                },
+                {
+                    "key": "/mg/tr/cc/pe/prmpcCalcExmnt",
+                    "label": "원가계산 검토",
+                    "parent": "/mg/tr/cc"
+                },
+                {
+                    "key": "/mg/tr/cc/ps/prmpcSprvisnExmnt",
+                    "label": "원가감리 검토",
+                    "parent": "/mg/tr/cc"
+                }
+            ]
+        }
+    ]
+}

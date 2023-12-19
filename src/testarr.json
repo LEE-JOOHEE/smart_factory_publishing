@@ -1,0 +1,262 @@
+{
+  "mainStatsList": [
+    {
+      "taskClsfCd": "SB0100",
+      "taskClsfNm": "과제신청",
+      "wholIndctOrdr": 1,
+      "bscIndctOrdr": null,
+      "bscStngYn": "N",
+      "useYn": "Y"
+    },
+    {
+      "taskClsfCd": "SB0200",
+      "taskClsfNm": "요건검토",
+      "wholIndctOrdr": 2,
+      "bscIndctOrdr": 1,
+      "bscStngYn": "Y",
+      "useYn": "Y"
+    },
+    {
+      "taskClsfCd": "SB0300",
+      "taskClsfNm": "코디네이터배정",
+      "wholIndctOrdr": 3,
+      "bscIndctOrdr": null,
+      "bscStngYn": "N",
+      "useYn": "Y"
+    },
+    {
+      "taskClsfCd": "SB0400",
+      "taskClsfNm": "AI마스터배정",
+      "wholIndctOrdr": 4,
+      "bscIndctOrdr": null,
+      "bscStngYn": "N",
+      "useYn": "Y"
+    },
+    {
+      "taskClsfCd": "SB0500",
+      "taskClsfNm": "요건서면평가",
+      "wholIndctOrdr": 5,
+      "bscIndctOrdr": 2,
+      "bscStngYn": "Y",
+      "useYn": "Y"
+    },
+    {
+      "taskClsfCd": "SB0600",
+      "taskClsfNm": "사업계획서제출",
+      "wholIndctOrdr": 6,
+      "bscIndctOrdr": null,
+      "bscStngYn": "N",
+      "useYn": "Y"
+    },
+    {
+      "taskClsfCd": "SC0100",
+      "taskClsfNm": "기술성평가",
+      "wholIndctOrdr": 7,
+      "bscIndctOrdr": 3,
+      "bscStngYn": "Y",
+      "useYn": "Y"
+    },
+    {
+      "taskClsfCd": "SC0200",
+      "taskClsfNm": "기술성평가2차",
+      "wholIndctOrdr": 8,
+      "bscIndctOrdr": null,
+      "bscStngYn": "N",
+      "useYn": "Y"
+    },
+    {
+      "taskClsfCd": "SC0300",
+      "taskClsfNm": "현장평가",
+      "wholIndctOrdr": 9,
+      "bscIndctOrdr": null,
+      "bscStngYn": "N",
+      "useYn": "Y"
+    },
+    {
+      "taskClsfCd": "SC0400",
+      "taskClsfNm": "현장확인",
+      "wholIndctOrdr": 10,
+      "bscIndctOrdr": 4,
+      "bscStngYn": "Y",
+      "useYn": "Y"
+    },
+    {
+      "taskClsfCd": "SC0500",
+      "taskClsfNm": "원가계산",
+      "wholIndctOrdr": 11,
+      "bscIndctOrdr": null,
+      "bscStngYn": "N",
+      "useYn": "Y"
+    },
+    {
+      "taskClsfCd": "SC0600",
+      "taskClsfNm": "선정심의위원회",
+      "wholIndctOrdr": 12,
+      "bscIndctOrdr": null,
+      "bscStngYn": "N",
+      "useYn": "Y"
+    },
+    {
+      "taskClsfCd": "SC0700",
+      "taskClsfNm": "컨설팅기관배정",
+      "wholIndctOrdr": 13,
+      "bscIndctOrdr": null,
+      "bscStngYn": "N",
+      "useYn": "Y"
+    },
+    {
+      "taskClsfCd": "SC0800",
+      "taskClsfNm": "마이스터배정",
+      "wholIndctOrdr": 14,
+      "bscIndctOrdr": null,
+      "bscStngYn": "N",
+      "useYn": "Y"
+    },
+    {
+      "taskClsfCd": "SD0100",
+      "taskClsfNm": "수준확인",
+      "wholIndctOrdr": 15,
+      "bscIndctOrdr": null,
+      "bscStngYn": "N",
+      "useYn": "Y"
+    },
+    {
+      "taskClsfCd": "SD0200",
+      "taskClsfNm": "협약신청",
+      "wholIndctOrdr": 16,
+      "bscIndctOrdr": 5,
+      "bscStngYn": "Y",
+      "useYn": "Y"
+    },
+    {
+      "taskClsfCd": "SD0300",
+      "taskClsfNm": "협약서류검토",
+      "wholIndctOrdr": 17,
+      "bscIndctOrdr": null,
+      "bscStngYn": "N",
+      "useYn": "Y"
+    },
+    {
+      "taskClsfCd": "SD0400",
+      "taskClsfNm": "협약체결",
+      "wholIndctOrdr": 18,
+      "bscIndctOrdr": null,
+      "bscStngYn": "N",
+      "useYn": "Y"
+    },
+    {
+      "taskClsfCd": "SD0600",
+      "taskClsfNm": "착수계",
+      "wholIndctOrdr": 19,
+      "bscIndctOrdr": null,
+      "bscStngYn": "N",
+      "useYn": "Y"
+    },
+    {
+      "taskClsfCd": "SE0200",
+      "taskClsfNm": "협약승인변경",
+      "wholIndctOrdr": 20,
+      "bscIndctOrdr": null,
+      "bscStngYn": "N",
+      "useYn": "Y"
+    },
+    {
+      "taskClsfCd": "SF0100",
+      "taskClsfNm": "사업비지급",
+      "wholIndctOrdr": 21,
+      "bscIndctOrdr": null,
+      "bscStngYn": "N",
+      "useYn": "Y"
+    },
+    {
+      "taskClsfCd": "SG0100",
+      "taskClsfNm": "중간점검",
+      "wholIndctOrdr": 22,
+      "bscIndctOrdr": null,
+      "bscStngYn": "N",
+      "useYn": "Y"
+    },
+    {
+      "taskClsfCd": "SG0200",
+      "taskClsfNm": "최종점검",
+      "wholIndctOrdr": 23,
+      "bscIndctOrdr": 6,
+      "bscStngYn": "Y",
+      "useYn": "Y"
+    },
+    {
+      "taskClsfCd": "SG0400",
+      "taskClsfNm": "중간감리",
+      "wholIndctOrdr": 24,
+      "bscIndctOrdr": null,
+      "bscStngYn": "N",
+      "useYn": "Y"
+    },
+    {
+      "taskClsfCd": "SG0500",
+      "taskClsfNm": "최종감리",
+      "wholIndctOrdr": 25,
+      "bscIndctOrdr": 7,
+      "bscStngYn": "Y",
+      "useYn": "Y"
+    },
+    {
+      "taskClsfCd": "SH0100",
+      "taskClsfNm": "연차평가",
+      "wholIndctOrdr": 26,
+      "bscIndctOrdr": null,
+      "bscStngYn": "N",
+      "useYn": "Y"
+    },
+    {
+      "taskClsfCd": "SH0200",
+      "taskClsfNm": "최종완료보고",
+      "wholIndctOrdr": 27,
+      "bscIndctOrdr": null,
+      "bscStngYn": "N",
+      "useYn": "Y"
+    },
+    {
+      "taskClsfCd": "SH0300",
+      "taskClsfNm": "최종평가",
+      "wholIndctOrdr": 28,
+      "bscIndctOrdr": 8,
+      "bscStngYn": "Y",
+      "useYn": "Y"
+    },
+    {
+      "taskClsfCd": "SH0400",
+      "taskClsfNm": "최종평가(현장)",
+      "wholIndctOrdr": 29,
+      "bscIndctOrdr": null,
+      "bscStngYn": "N",
+      "useYn": "Y"
+    },
+    {
+      "taskClsfCd": "SH0500",
+      "taskClsfNm": "최종평가결과",
+      "wholIndctOrdr": 30,
+      "bscIndctOrdr": null,
+      "bscStngYn": "N",
+      "useYn": "Y"
+    },
+    {
+      "taskClsfCd": "SJ0100",
+      "taskClsfNm": "이의신청",
+      "wholIndctOrdr": 31,
+      "bscIndctOrdr": null,
+      "bscStngYn": "N",
+      "useYn": "Y"
+    }
+  ],
+  "modelAndView": {
+    "view": null,
+    "model": {},
+    "status": null,
+    "empty": true,
+    "viewName": null,
+    "modelMap": {},
+    "reference": false
+  },
+  "mainStatsIndvdList": []
+}
